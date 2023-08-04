@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="gussing.css">
+    <title>Guessing Game</title>
+</head>
+<body>
+    <div id="start-btn">
+        <button id="start">Start New Game</button>
+    </div>
+    <div id="game" class="hidden">
+        <div id="title-guess">
+            <h2>Guess the number!</h2>
+        </div>
+        <div id="num-input">
+            <input id="guess" type="number" min="1000" max="9999" />
+        </div>
+        <div id="submit-btn">
+            <button id="submit">Submit My Guessing</button>
+        </div>
+        <div id="msg">
+            <p id="message"></p>
+        </div>
+        <div  id="count">
+            <p id="guessCount"></p>
+        </div>
+    </div>
+  <div id="scoreboard">
+    <h2>Best Scores</h2>
+    <p id="bestScore"></p>
+  </div>
+
+  <script src="guessing-game.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+*{
+    padding:0;
+    margin:0;
+    background-color: rgb(200, 244, 229);
+}
+#start-btn{
+    position: absolute;
+    top:20%;
+    left:45%;
+}
+#start-btn button{
+    height:50px;
+    width:150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    font-weight:bold;
+    background-color: rgb(217, 241, 180);
+    border: 1px dotted red;
+    border-radius: 250px 250px 250px 250px;
+    box-shadow: 5px 5px 10px grey;
+}
+#start-btn button:hover{
+    transform: scale(1.1);
+}
+#title-guess{
+    position:absolute;
+    top:33%;
+    left:27%;
+}
+#title-guess h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+#num-input{
+    position: absolute;
+    top:33%;
+    left:53%;
+}
+#guess{
+    height: 50px;
+    width:250px;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 1px 1px 8px gray;
+    border-radius: 50px 50px 2% 50px;
+    padding-left:10px;
+}
+/* #guess:hover{
+    transform: scale(1.5);
+} */
+.hidden {
+    display: none;
+  }
+
+#submit-btn{
+    position: absolute;
+    top:48%;
+    left:43.5%;
+}
+
+#submit-btn button{
+    height:50px;
+    width:200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    font-weight:bold;
+    background-color: rgb(236, 130, 16);
+    border: 1px dotted red;
+    border-radius: 250px 250px 250px 250px;
+    box-shadow: 5px 5px 10px grey;
+    color:rgb(221, 223, 225)
+}
+#submit-btn button:hover{
+    transform: scale(1.1);
+}
+#msg{
+    position: absolute;
+    top:58%;
+    left:47%;
+}
+#message{
+    font-size:80px;
+}
+#count{
+    position:absolute;
+    top:62%;
+    left:58%;
+}
+#guessCount{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color:rgb(17, 117, 117);
+    text-shadow: 1px 1px 1px gray;
+}
+#scoreboard{
+    position: absolute;
+    top:85%;
+    left:43%;
+}
+#scoreboard h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:darkslategrey;
+    margin-left:20%;
+    white-space: nowrap;
+    font-size: 30px;;
+}
+#scoreboard p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px gray;
+}
